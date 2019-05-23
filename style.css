@@ -3020,7 +3020,6 @@ p.email-input-p {
 body {
     overflow-x: hidden;
     color: #6F6D64;
-    font-family: 'Vollkorn';
 }
 
 /* wrapper */
@@ -3045,7 +3044,6 @@ nav,
 .grey-box,
 #what-we-do,
 footer {
-    font-family: 'Museo Sans';
     text-rendering: optimizelegibility;
 }
 
@@ -3481,6 +3479,12 @@ header.bg.medium .menu-item-517 ul {
 }
 
 
+#what-we-do {
+    background: linear-gradient(rgba(132, 132, 132, 0.4), rgba(138, 137, 137, 0.4), rgba(132, 130, 130, 0.4)), url("./images/bg-2.jpg");
+    background-size: cover;
+
+}
+
 /* homepage */
 #what-we-do p {
     font-size: 1em;
@@ -3522,6 +3526,10 @@ header.bg.medium .menu-item-517 ul {
 
 #where-we-work {
     height: 645px;
+    background: linear-gradient(rgba(132, 132, 132, 0.4), rgba(138, 137, 137, 0.4), rgba(132, 130, 130, 0.4)), url("./images/bg-1.jpg") no-repeat;
+    mix-blend-mode: overlay;
+    background-size: cover;
+    /* background-color: black; */
 }
 
 #where-we-work h3 {
